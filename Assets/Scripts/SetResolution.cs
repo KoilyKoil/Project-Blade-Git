@@ -13,7 +13,7 @@ public class SetResolution : MonoBehaviour
         int deviceHeight=Screen.height;
 
         //SetResolution 함수 사용
-        Screen.SetResolution(screenWidth, (int)(((float)deviceHeight/deviceWidth)*screenWidth), true);
+        Screen.SetResolution(screenWidth, (int)(((float)deviceHeight/deviceWidth)*screenWidth), false);
 
         //기기의 해상도 비가 더 큰 경우
         if((float)screenWidth/screenHeight<(float)deviceWidth/deviceHeight){

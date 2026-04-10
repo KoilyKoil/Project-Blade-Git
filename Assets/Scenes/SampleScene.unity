@@ -2335,7 +2335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenWidth: 720
-  screenHeight: 1080
+  screenHeight: 1280
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
